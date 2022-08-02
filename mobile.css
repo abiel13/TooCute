@@ -1,0 +1,188 @@
+@media screen and (max-width:950px) {
+    .content{
+        width: 100%;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:450px) {
+    #list-menu{
+        position: fixed;
+top: 0px;
+bottom: 0px;
+right: 0px;
+margin: 0px !important;
+        background-color:#e84e4e65;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+ transform: translateX(100%);
+    }
+.menu{
+display: block;
+z-index: 10000;
+font-size: 2em;
+}
+#list-menu[data-visible="true"]{
+    transform: translateX(0%);
+}
+.content h1{
+text-align: center;
+}
+
+#About{
+    flex-direction: column;
+}
+
+#About .image{
+width: 100%;
+height: 40%;
+}
+#About .text{
+    width: 100%;
+    height: 60%;
+}
+.text .acttext{
+    width: 100%;
+    height: 100%;
+}
+.acttext h1{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.catcontainer{
+    flex-direction: column;
+}
+.catcontainer .firstcat{
+    width: 100% !important;
+    height: 50% !important;
+}
+.firstcat .text{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+
+.firstcat .text .hello{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.catcontainer .secondcat{
+    width: 100% !important;
+    height: 50% !important;
+}
+.secondcat img{
+    width: 100%;
+}
+
+
+#footer .first{
+    display: none;
+}
+
+#footer .second{
+    height: 80%;
+    flex-direction: column;
+}
+
+.second .cat{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.cat .cattext{
+    width: 100%;
+    height: 100%;
+}
+
+.actfoot{
+  
+    width: 100% ;
+}
+
+}
+
+@media screen and (max-width:540px){
+.content h1{
+text-align: center;
+}
+
+#About{
+    flex-direction: column;
+}
+
+#About .image{
+width: 100%;
+height: 40%;
+}
+#About .text{
+    width: 100%;
+    height: 60%;
+}
+.text .acttext{
+    width: 100%;
+    height: 100%;
+    font-size: 1.8em;
+}
+.acttext h1{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.catcontainer{
+    flex-direction: column;
+}
+.catcontainer .firstcat{
+    width: 100% !important;
+    height: 40% !important;
+}
+.firstcat .text{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+
+.firstcat .text .hello{
+    font-size: 1.4em !important;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.catcontainer .secondcat{
+    width: 100% !important;
+    height: 60% !important;
+}
+.secondcat img{
+    width: 100%;
+}
+
+
+#footer .first{
+    display: none;
+}
+
+#footer .second{
+    height: 80%;
+    flex-direction: column;
+}
+
+.second .cat{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.cat .cattext{
+    width: 100%;
+    height: 100%;
+}
+
+.actfoot{
+  
+    width: 100% ;
+}
+
+}
